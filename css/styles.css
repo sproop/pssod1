@@ -1,0 +1,263 @@
+header {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   height: 130px;
+   background-color: #96b7be;
+}
+
+.simplicity {
+   display: flex;
+   padding: 15px;
+   width: 50%;
+   align-items: flex-start;
+   flex-direction: column;
+   justify-content: center;
+
+}
+
+
+header .logo {
+    font-size: 56px;
+    line-height: 56px;
+    color: rgb(255,255,255);
+    margin: 10px;
+    font-family: "e";
+}
+
+
+header .logo-small {
+    font-size: 16px;
+    line-height: 16px;
+    color: rgb(211,211,211);
+    font-family: "Georgia";
+    margin: 0px 0px 0px 10px;
+}
+
+nav {
+    width: 50%;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav div {
+    border-left: solid white 2px;
+    height: 70px;
+    padding-left: 15px;
+    font-size: 12px;
+    line-height: 17px;
+    color: rgb(51,51,51);
+    font-family: "Verdana";
+}
+
+nav .bar {
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    color: rgb(0,0,0);
+    font-family: "Georgia";
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    background-color: #cbdde1;
+}
+
+.intro {
+    display: flex;
+    height: 500px;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro-img {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+}
+
+.intro-img img {
+    display: block;
+    padding: 7px;
+    border: 2px solid #96b7be;
+}
+
+
+
+.intro-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.egetet {
+    font-size: 42px;
+    border-bottom: 2px solid #96b7be;
+    padding-bottom: 10px;
+    width: 100%;
+    line-height: 42px;
+    color: rgb(255,255,255);
+    font-family: "Georgia";
+}
+
+.maurisucslingillamaliquam {
+    width: 100%;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgb(68,105,115);
+    font-family: "Verdana";
+}
+
+.find_out {
+    background-color: #cbdde1;
+    border-bottom: 2px solid #96b7be;
+    margin-top: 25px;
+    width: 100%;
+    height: 50px;
+}
+
+.services {
+   display: flex;
+   justify-content: space-between;
+   border-bottom: 2px solid #96b7be;
+   padding: 15px;
+}
+
+.service {
+    width: 235px;
+}
+
+.lipsum {
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 18px;
+    color: rgb(102,102,102);
+    font-family: "Georgia";
+}
+
+.nullamlacous {
+    margin-top: 10px;
+    border-bottom: 2px solid #96b7be;
+    padding-bottom: 10px;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgb(102,102,102);
+    font-family: "Verdana";
+}
+
+.service img {
+    margin-top: 15px;
+}
+
+.content {
+    padding: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about {
+    width: 68%;
+}
+.about-text p {
+    font-size: 12px;
+    line-height: 14px;
+    color: rgb(102,102,102);
+    font-family: "Verdana";
+}
+
+.about-title {
+    height: 50px;
+    border-bottom: 2px solid #96b7be;
+    font-size: 18px;
+    line-height: 18px;
+    color: rgb(102,102,102);
+    font-family: "Georgia";
+}
+
+.content-right {
+    display: flex;
+    padding-right: 15px;
+    flex-direction: column;
+    width: 30%;
+}
+
+.content_img {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #96b7be;
+}
+
+.content_img div {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    line-height: 20px;
+    color: rgb(102,102,102);
+    font-family: "Georgia";
+}
+
+.content-right-text {
+    padding-top: 15px;
+    font-size: 12px;
+    line-height: 19px;
+    color: rgb(119,119,119);
+    font-family: "Verdana";
+}
+
+.to-be-continued {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 13px;
+    line-height: 13px;
+    color: rgb(38,87,94);
+    font-family: "Verdana";
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #cbdde1;
+    padding: 15px;
+    height: 150px;
+    width: 100%:
+}
+
+.footer-column {
+    width: 30%;
+}
+
+.footer-title {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 2px solid #96b7be;
+    font-size: 22px;
+    line-height: 22px;
+    color: rgb(102,102,102);
+    font-family: "Georgia";
+}
+
+.footer-column input {
+    width: 80%;
+    margin-right: 5px;
+}
+
+.footer-text {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+    line-height: 12px;
+    color: rgb(102,102,102);
+    font-family: "Verdana";
+}
